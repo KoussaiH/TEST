@@ -1,0 +1,160 @@
+html{
+	overflow-x:hidden;
+	margin:0;
+	padding:0;
+	}
+
+
+body {
+	background-image:url(../Images/Olympe.jpg); 
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	font-family:Times, Serif;
+}
+
+
+.box {
+	width: 90%;
+	color: Black;
+	background-color:white; 
+	height:800%;
+	padding:25px;
+	margin:auto;
+	margin-top:15px;
+	margin-bottom:75px;
+	opacity:0.8;
+}
+	
+
+h1 {
+	text-align:center;
+	font-family:Times, Serif;
+	color:Gold;
+	padding:30px 150px 0 150px;
+}
+
+h2 {
+	text-align: center;
+	font-family:Times, Serif;
+	Color:Red;
+}
+
+
+header{
+	position:absolute;
+	height:118px;
+	top: 0;
+	width:100%;
+	z-index:100;
+	}
+header:first-child {
+margin-left:none;
+	}
+header:last-child {
+margin-left:none;}
+	
+	
+	nav  {
+	background-color:#B0C4DE;
+	width:100%;
+	overflow:auto;
+	margin-top:120px;
+	}
+	
+nav ul, nav li {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	}
+	
+nav li {
+	float:left;
+	width:24%;
+	text-align:center;
+	}
+
+nav a {
+	display:block;
+	text-decoration:none;
+	color:Black; 
+	line-height:150%;
+	transition:background ease 2s;
+	}
+nav a:hover {
+background:Gold;
+	}
+	
+nav li:first-child {
+	margin-left:2%;
+}
+nav li:last-child{
+	margin-right:none;
+}
+
+fieldset{
+	-moz-border-radius:10px;  
+	border-radius:10px;  
+	-webkit-border-radius:10px;
+}
+	
+	
+footer {
+	color: Gold;
+	text-align:center;
+	margin-top:10px;
+	padding:2px;
+	min-height:5px;
+	height:10px;
+	width:100%;
+	position:relative;
+	bottom:0;
+	}
+	
+
+.bouton {
+	text-decoration:none; 
+	position:center;
+	}
+.bouton:hover{
+	text-decoration:none;
+	opacity:0.7;
+	}
+	
+.Greek{
+	font-family: Bookman, serif;
+}
+
+.soum {
+	position: center;
+}
+	
+
+/*pour smartphone*/
+@media screen and (max-width:480px){
+	nav li {float:none;
+			width:100%;
+			border-top:#fff solid 1px;
+			}
+			
+h1{ 
+	font-size:16px;
+	padding: 30px 0 0 150px;
+	margin:0;
+	}
+
+section, aside {
+	width:100%;
+	clear:both;
+	}
+	
+nav {
+	overflow:hidden;
+	}
+
+footer {
+	visibility:hidden;}
+	} 
+
+	
